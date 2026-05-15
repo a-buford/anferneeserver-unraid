@@ -1,9 +1,9 @@
-# <UNRAID_SERVER> — Unraid Home Lab
+# Unraid Home Lab
 
 Documented build of my Unraid home server running 24 Docker containers across media, AI, backup, and networking workloads.
 
 ## Hardware
-- **Chassis/Board:** Dell motherboard 0975F3
+- **Chassis/Board:** Dell motherboard
 - **CPU:** Intel Xeon E5-2690 v4 @ 2.60GHz (28 HT cores)
 - **RAM:** 48 GB DDR4 ECC
 - **GPU:** NVIDIA Quadro P2000 (transcode + light inference)
