@@ -27,6 +27,4 @@ Documented build of my Unraid home server running 24 Docker containers across me
 ## Networking Topology
 External clients hit Cloudflare Tunnel → NginxProxyManager → service container. Trusted devices use Tailscale directly. The 10 Gbps interface handles array-to-cache and Immich import traffic.
 
-## Lessons (don't repeat my mistakes)
-- Never use `network_mode: host` on Unraid — it broke the entire server
-- Never run `docker stop $(docker ps -aq)` — kills every container including system ones
+
