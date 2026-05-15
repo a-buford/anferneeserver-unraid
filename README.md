@@ -10,11 +10,6 @@ Documented build of my Unraid home server running 24 Docker containers across me
 - **Storage:**
   - Array: 14 TB usable (3 data disks + 1 parity), ~66% used
   - Cache: 512 GB SSD
-- **Networking:**
-  - `bond0` over `eth0` (1 Gbps) + `eth2` (10 Gbps)
-  - LAN: `<SERVER_IP>`
-  - Tailscale: `100.113.16.4`
-  - WireGuard tunnel on `wg0`
 
 ## Container Inventory (24)
 | Category | Containers |
